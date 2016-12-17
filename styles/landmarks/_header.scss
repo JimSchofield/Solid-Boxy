@@ -1,0 +1,52 @@
+.header-inner-navigation {
+	display: flex;
+	flex-wrap: row;
+	justify-content: center;
+}
+
+header * {
+	font-family: 'Poppins', sans-serif;
+}
+
+.header-inner {
+	background: $LIGHT_BLUE;
+	color: white;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.header-inner-navigation-button a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.header-inner-logo {
+	background: $BG_GRAY;
+	padding: 0px;
+	color: $PASTEL_RED;
+	width: 100px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+
+/* TODO
+
+1) create a menu that I actually like
+2) style the logo
+3) style the blocks to fill 100%?
+4) footer
+
+5) Ask mark about typography
+
+*/
