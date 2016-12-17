@@ -61,12 +61,10 @@ body {
 .grid {
   flex: 1; }
 
-.grid-box {
-  padding: 10px 20px 10px 20px; }
-
 .grid-box-inner {
   padding: 20px;
-  background: #eaf2e3; }
+  background: #eaf2e3;
+  border: 8px solid #f2cd60; }
 
 .grid-box-inner > * + * {
   margin-top: 10px;
@@ -113,7 +111,6 @@ header * {
 /* TODO
 
 1) create a menu that I actually like
-2) style the logo
 3) style the blocks to fill 100%?
 4) footer
 
