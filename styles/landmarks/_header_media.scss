@@ -1,0 +1,21 @@
+@media (min-width: 700px) {
+	.header-inner {
+		flex-direction: row;
+	}
+
+	.header-inner-logo {
+		margin-bottom: 0px;
+	}
+}
+
+@media (min-width: 520px) {
+	.header-inner-navigation {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.header-inner-navigation-button {
+		margin-bottom: 0px;
+	}
+}
