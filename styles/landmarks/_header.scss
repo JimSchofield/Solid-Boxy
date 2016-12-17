@@ -1,8 +1,3 @@
-.header-inner-navigation {
-	display: flex;
-	flex-wrap: row;
-	justify-content: center;
-}
 
 header * {
 	font-family: 'Poppins', sans-serif;
@@ -13,16 +8,65 @@ header * {
 	color: white;
 	padding: 10px;
 	display: flex;
-	justify-content: space-around;
+	flex-direction: column;
 	align-items: center;
-
 }
 
+.header-inner-navigation {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.header-inner-navigation-button {
+	position: relative;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+
+/* LINK STYLING */
 .header-inner-navigation-button a {
-	color: white;
 	text-decoration: none;
+	font-weight: bold;
 	padding: 10px;
+	transition: all .3s;
 }
+
+.header-inner-navigation-button a:link {
+		color: white;
+	}
+.header-inner-navigation-button a:visited {
+		color: white;
+	}
+.header-inner-navigation-button a:hover {
+		color: $PASTEL_RED;
+		transition: all .3s;
+	}
+.header-inner-navigation-button a:active {
+		color: white;
+	}
+
+.header-inner-navigation-button	a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: $PASTEL_RED;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.header-inner-navigation-button a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(.7);
+  transform: scaleX(.7);
+}
+
 
 .header-inner-logo {
 	background: $BG_GRAY;
@@ -36,16 +80,8 @@ header * {
 	border-radius: 15px;
 	font-size: 30px;
 	font-weight: bold;
+	width: 100px;
+	margin-bottom: 15px;
 }
 
 
-
-/* TODO
-
-1) create a menu that I actually like
-3) style the blocks to fill 100%?
-4) footer
-
-5) Ask mark about typography
-
-*/

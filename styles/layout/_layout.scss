@@ -10,7 +10,7 @@ body {
 }
 
 .grid {
-	flex: 1; // hoping this instigates sticky footer
+	flex: 1;
 }
 
 .grid-box {
@@ -32,4 +32,6 @@ body {
 img {
 	max-width: 50%;
 	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
