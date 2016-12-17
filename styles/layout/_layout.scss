@@ -7,6 +7,7 @@ body {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
+	justify-content: center;
 }
 
 .grid {
@@ -15,6 +16,8 @@ body {
 
 .grid-box {
 	// padding: 10px 20px 10px 20px;
+	display: inline-block;
+	float: left;
 }
 
 .grid-box-inner {

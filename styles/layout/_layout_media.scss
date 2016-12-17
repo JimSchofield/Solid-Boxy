@@ -1,0 +1,17 @@
+@media (min-width: 350px) {
+	.grid-box {
+		width: 350px;
+	}
+
+	.grid {
+		max-width: 350px;
+		margin: auto;
+	}
+
+}
+
+@media (min-width: 700px) {
+	.grid {
+		max-width: 700px;
+	}
+}

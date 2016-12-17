@@ -64,10 +64,15 @@ body {
   background: #c8c8c8;
   display: flex;
   min-height: 100vh;
-  flex-direction: column; }
+  flex-direction: column;
+  justify-content: center; }
 
 .grid {
   flex: 1; }
+
+.grid-box {
+  display: inline-block;
+  float: left; }
 
 .grid-box-inner {
   padding: 20px;
@@ -84,6 +89,16 @@ img {
   margin-right: 10px;
   margin-bottom: 10px; }
 
+@media (min-width: 350px) {
+  .grid-box {
+    width: 350px; }
+
+  .grid {
+    max-width: 350px;
+    margin: auto; } }
+@media (min-width: 700px) {
+  .grid {
+    max-width: 700px; } }
 .footer-inner {
   background: #f25757; }
 
