@@ -96,7 +96,7 @@ img {
   .grid {
     max-width: 350px;
     margin: auto; } }
-@media (min-width: 700px) {
+@media (min-width: 715px) {
   .grid {
     max-width: 700px; } }
 .footer-inner {
@@ -200,13 +200,13 @@ header * {
   width: 100px;
   margin-bottom: 15px; }
 
-@media (min-width: 700px) {
+@media (min-width: 715px) {
   .header-inner {
     flex-direction: row; }
 
   .header-inner-logo {
     margin-bottom: 0px; } }
-@media (min-width: 520px) {
+@media (min-width: 560px) {
   .header-inner-navigation {
     display: flex;
     flex-direction: row;
